@@ -188,11 +188,17 @@ header .open {
         width: calc(60% - 30px);
     }
 }
+.statistics .container .with-image a:hover i {
+    color: var(--black);
+}
 /* statistics */
 
 /* team */
 .team .container .slider a:hover {
     background-color: var(--orange);
+}
+.team .container .team-members a:hover i {
+    color: var(--yellow);
 }
 /* team */
 
@@ -210,25 +216,6 @@ header .open {
     background-color: var(--yellow);
     color: white;
 }
-/* @media (min-width: 922px) {
-    .contact .container .contact-info form {
-        width: 33%;
-    }
-    .contact .container .contact-info > div {
-        width: 33%;
-    }
-}
-@media (max-width: 921px) {
-    .contact .container .contact-info form {
-        width: 50%;
-    }
-    .contact .container .contact-info > div {
-        width: 50%;
-    }
-    .contact .container .contact-info .image {
-       display: none;
-    }
-} */
 @media (min-width: 768px) {
     .contact .container .contact-info form {
         width: 50%;
